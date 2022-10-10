@@ -12,21 +12,6 @@ public class Fan {
     public Fan() {
 
     }
-    public int getspeed() {
-        return speed;
-    }
-
-    public boolean geton() {
-        return on;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public double getRadius() {
-        return radius;
-    }
 
     public void setSpeed(int speed) {
         this.speed = speed;
@@ -46,19 +31,9 @@ public class Fan {
 
     public String toString() {
         if (this.on) {
-            return "Fan{" +
-                    ", speed=" + speed +
-                    ", on=" + on +
-                    ", color='" + color + '\'' +
-                    ", radius=" + radius + "fan is on" +
-                    '}';
+            return "Fan{" + ", speed=" + speed + ", on=" + ", color='" + color + '\'' + ", radius=" + radius + "fan is on" + '}';
         } else {
-            return "Fan{" +
-                    ", speed=" + speed +
-                    ", on=" + on +
-                    ", color='" + color + '\'' +
-                    ", radius=" + radius + "fan is off" +
-                    '}';
+            return "Fan{" + ", speed=" + speed + ", on=" + ", color='" + color + '\'' + ", radius=" + radius + "fan is off" + '}';
         }
     }
 
