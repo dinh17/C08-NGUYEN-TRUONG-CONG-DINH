@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class CountChar {
     public static void main(String[] args) {
-        String str;
-        char str1 = 'a';
-        int count = 0;
         Scanner scanner = new Scanner(System.in);
+        int count = 0;
+        System.out.println("Nhập vào một ký tự bất kỳ: ");
+        char str1 = scanner.nextLine().charAt(0);
 
         System.out.println("Nhập vào chuỗi bất kỳ: ");
-        str = scanner.nextLine();
+        String str = scanner.nextLine();
 
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == str1) {

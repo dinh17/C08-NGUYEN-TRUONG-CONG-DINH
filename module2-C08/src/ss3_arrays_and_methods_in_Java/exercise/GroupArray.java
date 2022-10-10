@@ -9,6 +9,7 @@ public class GroupArray {
         int[] dst = new int[src1.length + src2.length];
 
         System.arraycopy(src1, 0, dst, 0, src1.length);
+        //(mảng cần cop,vị trí cop,cop đến mnangr nào,tại vị trí đến,cop bao nhiêu phần tử trong mảng cop )
         System.arraycopy(src2, 0, dst, src1.length, src2.length);
 
         System.out.println(Arrays.toString(dst));
