@@ -2,26 +2,14 @@ package ss7_abstract_class_interface.exercise.InterfaceColorable.Shape;
 
 public class Square extends Shape
         implements Colorable {
-    private double side = 0;
-
-    public Square() {
-    }
+    private final double side;
 
     public Square(double side) {
         this.side = side;
     }
 
-    public Square(double side, String color, boolean filled) {
-        setShape(color, filled);
-        this.side = side;
-    }
-
     public double getSide() {
         return this.side;
-    }
-
-    public void setSide(double side) {
-        this.side = side;
     }
 
     @Override

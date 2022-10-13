@@ -1,10 +1,13 @@
-package ss7_abstract_class_interface.exercise.InterfaceColorable.Shape;
+package ss7_abstract_class_interface.exercise.InterfaceResizeable;
 
-public abstract class Shape {
-    private String color = "black";
-    private boolean filled = false;
+public abstract class Shape implements Resizeable {
+    private String color = "green";
+    private boolean filled = true;
 
-    public void setShape(String color, boolean filled) {
+    public Shape() {
+    }
+
+    public Shape(String color, boolean filled) {
         this.color = color;
         this.filled = filled;
     }
@@ -19,6 +22,10 @@ public abstract class Shape {
 
     public boolean isFilled() {
         return filled;
+    }
+
+    public void setFilled(boolean filled) {
+        this.filled = filled;
     }
 
     @Override
