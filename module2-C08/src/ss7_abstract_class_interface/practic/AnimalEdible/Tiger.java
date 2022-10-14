@@ -7,6 +7,6 @@ public class Tiger extends Animal implements Edible {
 
 
     public String howToEat() {
-        return "could be fried";
+        return "by  mouth";
     }
 }

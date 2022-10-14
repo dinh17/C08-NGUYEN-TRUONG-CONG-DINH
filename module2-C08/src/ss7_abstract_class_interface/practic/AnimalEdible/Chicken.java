@@ -5,6 +5,6 @@ public class Chicken extends Animal implements Edible {
         return "Chicken: cluck-cluck!";
     }
     public String howToEat() {
-        return "could be fried";
+        return "by  mouth";
     }
 }

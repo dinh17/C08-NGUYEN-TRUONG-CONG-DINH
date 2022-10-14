@@ -18,10 +18,6 @@ package ss7_abstract_class_interface.practic.InterfaceComparable2;
             this.radius =radius ;
         }
 
-        public void setFilled(boolean filled) {
-            this.filled = filled;
-        }
-
         public double getRadius() {
             return radius;
         }
