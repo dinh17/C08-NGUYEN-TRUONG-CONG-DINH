@@ -1,4 +1,4 @@
-package ss12_collection_framework.exercise.view;
+package ss12_collection_framework.exercise.product_management.view;
 
 import ss12_collection_framework.exercise.product_management.controller.ProductController;
 
