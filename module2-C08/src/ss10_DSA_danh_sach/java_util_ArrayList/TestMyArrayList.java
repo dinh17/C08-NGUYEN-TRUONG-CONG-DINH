@@ -48,11 +48,11 @@ public class TestMyArrayList {
         studentMyArrayList.add(d);
 //        studentMyArrayList.add(e);
         System.out.println(studentMyArrayList.size());
-//        for (int i = 0; i <studentMyArrayList.size() ; i++) {
-//            Student student =(Student) studentMyArrayList.elements[i];
-//            System.out.println(student.getId());
-//            System.out.println(student.getName());
-//        }
+        for (int i = 0; i <studentMyArrayList.size() ; i++) {
+            Student student =(Student) studentMyArrayList.elements[i];
+            System.out.print(student.getId());
+            System.out.println(student.getName());
+        }
 //        System.out.println(studentMyArrayList.get(2).getName());
         System.out.println(studentMyArrayList.indexOf(c));
         System.out.println(studentMyArrayList.containt(e));
@@ -60,9 +60,9 @@ public class TestMyArrayList {
 //        newsMyArrayList.remove(1);
         Student student = newsMyArrayList.remove(1);
         System.out.println(student.getName());
-//        for (int i = 0; i <newsMyArrayList.size() ; i++) {
-//            System.out.println(newsMyArrayList.get(i).getName());
-//        }
+        for (int i = 0; i <newsMyArrayList.size() ; i++) {
+            System.out.println(newsMyArrayList.get(i).getName());
+        }
 
     }
 }

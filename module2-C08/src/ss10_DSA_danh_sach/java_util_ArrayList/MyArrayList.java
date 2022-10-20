@@ -3,9 +3,10 @@ package ss10_DSA_danh_sach.java_util_ArrayList;
 import java.util.Arrays;
 
 public class MyArrayList<E> {
+
     private int size = 0;
     private static final int DEFAUT_CAPACITY = 10;
-    Object elements[];
+    Object[] elements;
 
     public MyArrayList() {
         elements = new Object[DEFAUT_CAPACITY];
