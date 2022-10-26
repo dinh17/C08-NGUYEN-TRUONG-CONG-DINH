@@ -1,4 +1,4 @@
-package ss16_IO_text_file.exercise.copy_file_text;
+package ss16_IO_text_file.exercise.read_file_csv;
 
 public class Country {
     private int id;
