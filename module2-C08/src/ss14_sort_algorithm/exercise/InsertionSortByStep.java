@@ -21,7 +21,6 @@ public class InsertionSortByStep {
         System.out.println("\nBegin sort processing...");
         insertionSort(array);
 
-
     }
 
     public static void insertionSort(int[] array) {
