@@ -10,10 +10,12 @@ public class ProductService {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập name: ");
         String nameProduct = scanner.nextLine();
+        System.out.println("Nhập hãng: ");
+        String hang = scanner.nextLine();
         System.out.println("Nhập price: ");
         double priceProduct = Double.parseDouble(scanner.nextLine());
         int id = productList.get(productList.size() - 1).getId() + 1;
-        Product product = new Product(nameProduct, priceProduct);
+        Product product = new Product(nameProduct, priceProduct,hang);
         product.setId(id);
         productList.add(product);
         displayListProduct();
@@ -64,7 +66,7 @@ public class ProductService {
         }
     }
 
-    public static void sortStudentByGPA() {
+    public static void sortStudentByCost() {
         productList.sort(new SortStudentByCost());
     }
 
@@ -74,6 +76,8 @@ public class ProductService {
         int id = Integer.parseInt(scanner.nextLine());
         System.out.println("Nhập name: ");
         String nameProduct = scanner.nextLine();
+        System.out.println("Nhập hãng");
+        String hang = scanner.nextLine();
         System.out.println("Nhập price: ");
         double priceProduct = Double.parseDouble(scanner.nextLine());
 
@@ -84,6 +88,7 @@ public class ProductService {
                 product.setId(id);
                 product.setProductName(nameProduct);
                 product.setCost(priceProduct);
+                product.setHang(hang);
 
                 break;
             }
@@ -99,9 +104,9 @@ public class ProductService {
     public static ArrayList<Product> productList = new ArrayList<>();
 
     static {
-        Product product1 = new Product("Định", 1000, 1);
-        Product product2 = new Product("Tài", 2000, 2);
-        Product product3 = new Product("Nghĩa", 1500, 3);
+        Product product1 = new Product("Định", 1000, "person",1);
+        Product product2 = new Product("Tài", 2000,"person", 2);
+        Product product3 = new Product("Nghĩa", 1500, "person",3);
         productList.add(product1);
         productList.add(product2);
         productList.add(product3);

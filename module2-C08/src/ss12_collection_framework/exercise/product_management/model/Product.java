@@ -5,16 +5,31 @@ public class Product {
     private String productName;
     private double price;
     private int id = 1;
+    private String hang ;
 
-    public Product(String productName, double price) {
+    public Product(String productName, double price, String hang,int id) {
         this.productName = productName;
+        this.price = price;
+        this.hang = hang;
+        this.id = id;
+    }
+
+    public Product(double price) {
         this.price = price;
     }
 
-    public Product(String productName, double price, int id) {
+    public Product(String productName, double price, String hang) {
         this.productName = productName;
         this.price = price;
-        this.id = id;
+        this.hang = hang;
+    }
+
+    public String getHang() {
+        return hang;
+    }
+
+    public void setHang(String hang) {
+        this.hang = hang;
     }
 
     public String getProductName() {
@@ -44,11 +59,10 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "id=" + id +
-                ", productName='" + productName + '\'' +
-                ", cost=" + price +
+                "productName='" + productName + '\'' +
+                ", price=" + price +
+                ", id=" + id +
+                ", hang='" + hang + '\'' +
                 '}';
     }
-
-
 }

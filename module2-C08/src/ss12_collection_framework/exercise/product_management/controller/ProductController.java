@@ -35,7 +35,8 @@ public class ProductController {
                     ProductService.search();
                     break;
                 case 6:
-                    ProductService.sortStudentByGPA();
+                    ProductService.sortStudentByCost();
+
                     break;
                 case 7:
                     System.exit(0);

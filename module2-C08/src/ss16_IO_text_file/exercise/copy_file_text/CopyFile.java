@@ -49,8 +49,8 @@ public class CopyFile {
     }
 
     public static void main(String[] args) {
-        String sourcePath = "src\\ss16_IO_text_file\\exercise\\ReadFileCSV\\source.csv ";
-        String targetPath = "src\\ss16_IO_text_file\\exercise\\ReadFileCSV\\target.csv";
+        String sourcePath = "src\\ss16_IO_text_file\\exercise\\copy_file_text\\source.csv ";
+        String targetPath = "src\\ss16_IO_text_file\\exercise\\copy_file_text\\source.csv";
         CopyFile.writeFile(targetPath, CopyFile.readFile(sourcePath));
     }
 }
