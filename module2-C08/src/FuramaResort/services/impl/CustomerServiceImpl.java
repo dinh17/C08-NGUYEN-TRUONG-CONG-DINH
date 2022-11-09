@@ -1,6 +1,6 @@
 package FuramaResort.services.impl;
 
-import FuramaResort.models.Customer;
+import FuramaResort.models.person.Customer;
 import FuramaResort.services.CustomerService;
 
 import java.util.ArrayList;

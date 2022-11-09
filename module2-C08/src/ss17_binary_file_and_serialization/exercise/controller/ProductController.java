@@ -20,9 +20,11 @@ public class ProductController   {
             switch (choice) {
                 case 1:
                     ProductManagement.addProduct();
-                    ProductManagement.writeFile();
+//                    ProductManagement.writeFile(productList);
+
                     break;
                 case 2:
+
                     ProductManagement.displayList();
                     break;
                 case 3:

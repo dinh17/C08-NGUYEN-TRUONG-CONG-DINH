@@ -1,6 +1,6 @@
 package ss12_collection_framework.exercise.product_management.controller;
 
-import ss12_collection_framework.exercise.product_management.model.service.ProductService;
+import ss12_collection_framework.exercise.product_management.service.ProductService;
 
 import java.util.Scanner;
 

@@ -1,4 +1,6 @@
 package FuramaResort.services;
 
-public interface Service {
+import FuramaResort.models.person.Person;
+
+public interface Service<E extends Person> {
 }

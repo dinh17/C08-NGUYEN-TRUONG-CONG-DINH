@@ -1,4 +1,6 @@
 package FuramaResort.services;
 
-public interface FacilityService extends  Service{
+import FuramaResort.models.person.Person;
+
+public interface FacilityService extends  Service<Person> {
 }

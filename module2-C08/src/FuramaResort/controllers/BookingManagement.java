@@ -1,7 +1,7 @@
 package FuramaResort.controllers;
 
 public class BookingManagement extends FuramaController {
-    public static void getBooking() {
+    public static void disBooking() {
         System.out.println("1. Add new booking\n" +
                 "2. Display list booking\n" +
                 "3. Return main menu");
@@ -19,7 +19,7 @@ public class BookingManagement extends FuramaController {
             case 2:
                 break;
             case 3:
-                displayMainMenu();
+
                 break;
         }
     }

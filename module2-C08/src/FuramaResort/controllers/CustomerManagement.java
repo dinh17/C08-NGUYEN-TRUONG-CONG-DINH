@@ -2,7 +2,7 @@ package FuramaResort.controllers;
 
 public class CustomerManagement extends FuramaController {
 
-    public static void getCustomer(){
+    public static void disCustomer(){
         System.out.println("1. Display list customers\n" +
                 "2. Add new customer\n" +
                 "3. Edit customer\n" +
@@ -22,7 +22,7 @@ public class CustomerManagement extends FuramaController {
                 break ;
             case 3 :
                 break ;
-            case 4 :displayMainMenu();
+            case 4 :
                 break ;
         }
     }

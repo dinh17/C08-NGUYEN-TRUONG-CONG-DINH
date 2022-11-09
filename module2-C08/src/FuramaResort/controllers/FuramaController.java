@@ -8,6 +8,7 @@ public class FuramaController {
     static int choice;
 
     public static void displayMainMenu() {
+        EmployeeManagement employeeManagement = new EmployeeManagement();
         System.out.println("1. Employee Management\n" +
                 "2. Customer Management\n" +
                 "3. Facility Management \n" +
@@ -24,19 +25,19 @@ public class FuramaController {
         } while (choice < 1 || choice > 6);
         switch (choice) {
             case 1:
-                EmployeeManagement.getEmployee();
+                employeeManagement.displayMenu() ;
                 break;
             case 2:
-                CustomerManagement.getCustomer();
+
                 break;
             case 3:
-                FacilityManagement.getFacility();
+
                 break;
             case 4:
-                BookingManagement.getBooking();
+
                 break;
             case 5:
-                PromotionManagement.getPromotion();
+
                 break;
             case 6:
                 break;

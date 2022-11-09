@@ -1,7 +1,7 @@
 package FuramaResort.controllers;
 
 public class PromotionManagement extends FuramaController {
-    public static void getPromotion() {
+    public static void disPromotion() {
         System.out.println("1. Display list customers use service\n" +
                 "2. Display list customers get voucher\n" +
                 "3. Return main menu");
@@ -18,7 +18,7 @@ public class PromotionManagement extends FuramaController {
             case 2:
                 break;
             case 3:
-                displayMainMenu();
+
                 break;
         }
     }

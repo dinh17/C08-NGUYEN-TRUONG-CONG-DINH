@@ -1,4 +1,6 @@
 package FuramaResort.services;
 
-public interface CustomerService extends Service{
+import FuramaResort.models.person.Person;
+
+public interface CustomerService extends Service<Person> {
 }

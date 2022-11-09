@@ -22,7 +22,7 @@ public class Main {
 
     public static void writeToFile(String path, List<Student> students) {
         try {
-            FileOutputStream fos = new FileOutputStream(path);
+            FileOutputStream fos = new FileOutputStream("src\\ss17_binary_file_and_serialization\\practice\\read_and_write_list_student\\student.txt");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(students);
             oos.close();
@@ -35,7 +35,7 @@ public class Main {
     public static List<Student> readDataFromFile(String path){
         List<Student> students = new ArrayList<>();
         try{
-            FileInputStream fis = new FileInputStream(path);
+            FileInputStream fis = new FileInputStream("src\\ss17_binary_file_and_serialization\\practice\\read_and_write_list_student\\student.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
             students = (List<Student>) ois.readObject();
             fis.close();

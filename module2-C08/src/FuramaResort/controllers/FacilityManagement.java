@@ -1,7 +1,7 @@
 package FuramaResort.controllers;
 
 public class FacilityManagement extends FuramaController {
-    public static void getFacility(){
+    public static void disFacility(){
         System.out.println("" +
                 "1. Display list customers use service\n" +
                 "2. Display list customers get voucher\n" +
@@ -18,7 +18,7 @@ public class FacilityManagement extends FuramaController {
                 break ;
             case 2 :
                 break ;
-            case 3 : displayMainMenu();
+            case 3 : ;
                 break ;
         }
     }
