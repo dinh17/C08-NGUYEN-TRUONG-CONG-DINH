@@ -8,7 +8,7 @@ import java.util.Arrays;
 //        [ 1,2,3,3,2,4] => 1 : 1 lần , 2 : 2 lần, 3: 2 lần, 4: 1
 //        lần.
 public class bai2 {
-    public static void countFreq(int[] arr, int n)
+    public static void countFreq(int[] arr,int n)
     {
         boolean[] visited = new boolean[n];
 

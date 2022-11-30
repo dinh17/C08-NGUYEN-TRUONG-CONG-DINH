@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19fd240c-e3c5-4d32-815f-1d5c4c7e3f7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/data/student.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/data/teacher.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/service/impl/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/util/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/util/WriteRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapthicuoimodule/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2-C08/baitapthicuoimodule2/data/product.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/module2-C08/baitapthicuoimodule2/data/product.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2HKZyxIgdD38ZFXtTJYQwFjpCRo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19fd240c-e3c5-4d32-815f-1d5c4c7e3f7a" name="Default Changelist" comment="" />
+      <created>1668035993472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668035993472</updated>
+      <workItem from="1668035995025" duration="206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
